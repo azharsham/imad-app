@@ -8,7 +8,17 @@ app.use(morgan('combined'));
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
+app.get('/azharsham',function(req,res){
+    res.send("You Will Be Served Soon")
+});
 
+app.get('/azhar',function(req,res){
+    res.send("You Will Be Served Soon,Dude  /n This Site is Part OF SQUAREWHEEL media")
+});
+
+app.get('/squarewheel',function(req,res){
+    res.send("square Wheel will start rolling soon!")
+});
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
