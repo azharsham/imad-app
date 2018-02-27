@@ -13,7 +13,7 @@ app.get('/azharsham',function(req,res){
 });
 
 app.get('/azhar',function(req,res){
-    res.send("You Will Be Served Soon,Dude  /n This Site is Part OF SQUAREWHEEL media")
+    res.send("You Will Be Served Soon,Dude  This Site is Part OF SQUAREWHEEL media")
 });
 
 app.get('/squarewheel',function(req,res){
