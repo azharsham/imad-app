@@ -17,7 +17,7 @@ app.get('/azhar',function(req,res){
 });
 
 app.get('/squarewheel',function(req,res){
-    res.send("square Wheel will start rolling soon!")
+   res.sendFile(path.join(__dirname, 'ui', 'squarewheel.html'));
 });
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
